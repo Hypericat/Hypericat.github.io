@@ -50,7 +50,7 @@ This project was created along with Buhbah6
 
 
 
-<a href="https://google.com"> <button class="button button1">Learn More!</button></a>
+<a href="./another-page.html"> <button class="button button1">Learn More!</button></a>
 
 
 
