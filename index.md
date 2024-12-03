@@ -35,7 +35,7 @@ This project was created along with Buhbah6
 .button {
   border: none;
   color: white;
-  padding: 15px 100px;
+  padding: 12px 100px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -50,7 +50,7 @@ This project was created along with Buhbah6
 
 
 
- <button class="button button1">Learn More!</button> 
+ <button href="./another-page.html" class="button button1">Learn More!</button> 
 
 
 
