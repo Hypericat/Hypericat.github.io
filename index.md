@@ -50,7 +50,7 @@ This project was created along with Buhbah6
 
 
 
- <button href="another-page.html" class="button button1">Learn More!</button> 
+ <button class="button button1">Learn More!</button> 
 
 
 
