@@ -35,7 +35,7 @@ This project was created along with Buhbah6
 .button {
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 100px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -45,7 +45,6 @@ This project was created along with Buhbah6
 }
 
 .button1 {background-color: #04AA6D;} /* Green */
-.button2 {background-color: #008CBA;} /* Blue */
 </style>
 
 
