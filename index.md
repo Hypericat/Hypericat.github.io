@@ -6,7 +6,6 @@ layout: default
 .button {
   border: none;
   color: white;
-  padding: 12px 100px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -15,7 +14,37 @@ layout: default
   cursor: pointer;
 }
 
-.button1 {background-color: #04AA6D;} /* Green */
+.button1 {
+  padding: 12px 100px;
+  background-color: #04AA6D;
+} /* Green */
+
+.button2 {
+ padding: 8px 25px;
+ background-color: #008CBA;
+} /* Blue */
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #04AA6D;
+}
+
+.button1:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
 </style>
 
 # Headless Minecraft Client
@@ -41,19 +70,19 @@ This project scanned all IP addresses on port 25565 looking for
 [Link to repository](https://github.com/Hypericat/Wordle-Solver)
 
 # Linear Systems of Equations Solver
-[Link to repository](https://github.com/Buhbah6/MATH204_LinearAdvancedCalculator)
+[Link to repository](https://github.com/Buhbah6/MATH204_LinearAdvancedCalculator
+
 This project was created along with Buhbah6
 
 # SDL Renderer
-[Link to repository](https://github.com/Hypericat/SDLRenderer)
-
-
+<a href="https://github.com/Hypericat/SDLRenderer"> <button class="button button2">Visit Repository</button></a>
 
 
 <a href="./another-page.html"> <button class="button button1">Learn More!</button></a>
 
 
 
+[Link to repository](https://github.com/Hypericat/SDLRenderer)
 
 
 
