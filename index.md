@@ -21,21 +21,37 @@ This project scanned all IP addresses on port 25565 looking for
 # Hyperion Client
 [Link to repository](https://github.com/Hypericat/HyperionClientV3)
 
-#Wordle Solver
+# Wordle Solver
 [Link to repository](https://github.com/Hypericat/Wordle-Solver)
 
-#Linear Systems of Equations Solver
+# Linear Systems of Equations Solver
 [Link to repository](https://github.com/Buhbah6/MATH204_LinearAdvancedCalculator)
 This project was created along with Buhbah6
 
-#SDL Renderer
+# SDL Renderer
 [Link to repository](https://github.com/Hypericat/SDLRenderer)
 
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #04AA6D;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+</style>
 
 
 
 
- <button type="button">Learn More!</button> 
+ <button class="button button1">Learn More!</button> 
 
 
 
