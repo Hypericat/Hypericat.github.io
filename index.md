@@ -5,7 +5,7 @@ layout: default
 # Headless Minecraft Client
 [Link to repository](https://github.com/Hypericat/HeadlessMC)
 
-This project emulates a Minecraft client connection to a Minecraft Server. This project was made in Java using the [Netty Library](https://netty.io/). The Headless client connects to the Minecraft server over a TCP connection (usually on port 25565). The Minecraft Protocol is heavily detailed [here](./https://wiki.vg/), this project could not have been without this. The Headless Client performs a secret key exchange with the server and can connect over an encrypted connection (using AES)
+This project emulates a Minecraft client connection to a Minecraft Server. This project was made in Java using the [Netty Library](https://netty.io/). The Headless client connects to the Minecraft server over a TCP connection (usually on port 25565). The Minecraft Protocol is heavily detailed [here](https://wiki.vg/), this project could not have been without this. The Headless Client performs a secret key exchange with the server and can connect over an encrypted connection (using AES)
 
 	
 	
@@ -13,16 +13,29 @@ This project emulates a Minecraft client connection to a Minecraft Server. This 
 	
 	
 
+# Minecraft IP Scanner
+[Link to repository](https://github.com/Hypericat/MinecraftIPScanner)
+
+This project scanned all IP addresses on port 25565 looking for 
+
+# Hyperion Client
+[Link to repository](https://github.com/Hypericat/HyperionClientV3)
+
+#Wordle Solver
+[Link to repository](https://github.com/Hypericat/Wordle-Solver)
+
+#Linear Systems of Equations Solver
+[Link to repository](https://github.com/Buhbah6/MATH204_LinearAdvancedCalculator)
+This project was created along with Buhbah6
+
+#SDL Renderer
+[Link to repository](https://github.com/Hypericat/SDLRenderer)
 
 
 
 
 
-
-
-
-
-
+<h1> TEST </h1>
 
 
 
