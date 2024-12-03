@@ -2,6 +2,22 @@
 layout: default
 ---
 
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 12px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #04AA6D;} /* Green */
+</style>
+
 # Headless Minecraft Client
 [Link to repository](https://github.com/Hypericat/HeadlessMC)
 
@@ -31,26 +47,10 @@ This project was created along with Buhbah6
 # SDL Renderer
 [Link to repository](https://github.com/Hypericat/SDLRenderer)
 
-<style>
-.button {
-  border: none;
-  color: white;
-  padding: 12px 100px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.button1 {background-color: #04AA6D;} /* Green */
-</style>
 
 
 
-
- <button href="./another-page.html" class="button button1">Learn More!</button> 
+ <button href="another-page.html" class="button button1">Learn More!</button> 
 
 
 
