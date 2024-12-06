@@ -52,9 +52,11 @@ layout: default
 
 ### Demonstration Video
 
-<div class="container">
-  <iframe width="560" src=http://www.youtube.com/watch?v=I71i-_ZlKeU"></iframe>
-</div>
+
+
+ <iframe width="420" height="315"
+src="https://youtu.be/I71i-_ZlKeU?si=iVbzx3m_G0SPUHhg">
+</iframe> 
 
 
 <a href="./HeadlessMC.html"> <button class="button button1">Learn More!</button></a>
