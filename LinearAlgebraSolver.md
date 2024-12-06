@@ -4,6 +4,7 @@ layout: default
 
 ## Welcome to another page
 
-_yay_
+
+This project was created along with Buhbah6
 
 [back](./)

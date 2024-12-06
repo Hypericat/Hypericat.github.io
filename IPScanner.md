@@ -4,6 +4,6 @@ layout: default
 
 ## Welcome to another page
 
-_yay_
+This project scanned all IP addresses on port 25565 looking for 
 
 [back](./)

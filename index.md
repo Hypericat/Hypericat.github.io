@@ -48,14 +48,14 @@ layout: default
 </style>
 
 # Headless Minecraft Client
-<a href="https://github.com/Hypericat/HeadlessMC"> <button class="button button2">Visit Repository</button></a>
+
 
 ### Demonstration Video
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I71i-_ZlKeU?si=VGT3ofPCdxJL5M2i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
+<a href="https://github.com/Hypericat/HeadlessMC"> <button class="button button2">Visit Repository</button></a>
 <a href="./HeadlessMC.html"> <button class="button button1">Learn More!</button></a>
 	
 	
@@ -63,52 +63,53 @@ layout: default
 	
 
 # Minecraft IP Scanner
-<a href="https://github.com/Hypericat/MinecraftIPScanner"> <button class="button button2">Visit Repository</button></a>
+
 
 ### Searching GUI
 <img src="IPScanner.png" alt="IP Scanner">
-
+<a href="https://github.com/Hypericat/MinecraftIPScanner"> <button class="button button2">Visit Repository</button></a>
 <a href="./IPScanner.html"> <button class="button button1">Learn More!</button></a>
 
 
 
 
-This project scanned all IP addresses on port 25565 looking for 
+
 
 # Hyperion Client
-<a href="https://github.com/Hypericat/HyperionClientV3"> <button class="button button2">Visit Repository</button></a>
 
 ### Hack List GUI
 <img src="HyperionClient.png" alt="Hyperion Client">
+<a href="https://github.com/Hypericat/HyperionClientV3"> <button class="button button2">Visit Repository</button></a>
 
 <a href="./HyperionClient.html"> <button class="button button1">Learn More!</button></a>
 
 
 # Wordle Solver
-<a href="https://github.com/Hypericat/Wordle-Solver"> <button class="button button2">Visit Repository</button></a>
+
 
 ### Completed Wordle using Solver
 <img src="Wordle.png" alt="Wordle">
-
+<a href="https://github.com/Hypericat/Wordle-Solver"> <button class="button button2">Visit Repository</button></a>
 
 <a href="./WordleSolver.html"> <button class="button button1">Learn More!</button></a>
 
 
 # Linear Systems of Equations Solver
-<a href="https://github.com/Buhbah6/MATH204_LinearAdvancedCalculator"> <button class="button button2">Visit Repository</button></a>
 
 ### Example of a Linear System of Equations
 <img src="Linear.png" alt="Linear Systems of Equations">
 
+<a href="https://github.com/Buhbah6/MATH204_LinearAdvancedCalculator"> <button class="button button2">Visit Repository</button></a>
+
 <a href="./LinearAlgebraSolver.html"> <button class="button button1">Learn More!</button></a>
 
-This project was created along with Buhbah6
 
 # SDL Renderer
-<a href="https://github.com/Hypericat/SDLRenderer"> <button class="button button2">Visit Repository</button></a>
 
 ### SDL Test Graphics
 <img src="SDLRender.png" alt="SDL Renderer">
+
+<a href="https://github.com/Hypericat/SDLRenderer"> <button class="button button2">Visit Repository</button></a>
 
 
 <a href="./SDLRenderer.html"> <button class="button button1">Learn More!</button></a>
