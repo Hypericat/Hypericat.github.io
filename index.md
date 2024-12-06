@@ -58,6 +58,18 @@ layout: default
 src="https://youtu.be/I71i-_ZlKeU?si=iVbzx3m_G0SPUHhg">
 </iframe> 
 
+<div style="width: 560px; height: 315px; float: none; clear: both; margin: 2px auto;">
+  <embed
+    src="https://youtu.be/I71i-_ZlKeU?si=iVbzx3m_G0SPUHhg"
+    wmode="transparent"
+    type="video/mp4"
+    width="100%" height="100%"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen
+    title="Keyboard Cat"
+  >
+</div>
+
 
 <a href="./HeadlessMC.html"> <button class="button button1">Learn More!</button></a>
 	
