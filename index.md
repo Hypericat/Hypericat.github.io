@@ -92,5 +92,7 @@ This project was created along with Buhbah6
 # SDL Renderer
 <a href="https://github.com/Hypericat/SDLRenderer"> <button class="button button2">Visit Repository</button></a>
 
+<img src="SDLRender.jpg" alt="SDL Renderer">
+
 
 <a href="./SDLRenderer.html"> <button class="button button1">Learn More!</button></a>
