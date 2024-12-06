@@ -73,6 +73,8 @@ This project scanned all IP addresses on port 25565 looking for
 # Hyperion Client
 <a href="https://github.com/Hypericat/HyperionClientV3"> <button class="button button2">Visit Repository</button></a>
 
+<img src="HyperionClient.png" alt="SDL Renderer">
+
 <a href="./HyperionClient.html"> <button class="button button1">Learn More!</button></a>
 
 
@@ -92,7 +94,7 @@ This project was created along with Buhbah6
 # SDL Renderer
 <a href="https://github.com/Hypericat/SDLRenderer"> <button class="button button2">Visit Repository</button></a>
 
-<img src="SDLRender.jpg" alt="SDL Renderer">
+<img src="SDLRender.png" alt="SDL Renderer">
 
 
 <a href="./SDLRenderer.html"> <button class="button button1">Learn More!</button></a>
