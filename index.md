@@ -51,9 +51,11 @@ layout: default
 <a href="https://github.com/Hypericat/HeadlessMC"> <button class="button button2">Visit Repository</button></a>
 
 ### Demonstration Video
- <iframe width="420" height="315"
-src="http://www.youtube.com/watch?v=I71i-_ZlKeU">
-</iframe> 
+
+<div class="container">
+  <iframe width="560" src=http://www.youtube.com/watch?v=I71i-_ZlKeU"></iframe>
+</div>
+
 
 <a href="./HeadlessMC.html"> <button class="button button1">Learn More!</button></a>
 	
