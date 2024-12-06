@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
+# Wordle Solver
 
-## Welcome to another page
+## Development
+This project was very much a quick and dirty
 
-_yay_
-
-[back](./)
+## Additional Features

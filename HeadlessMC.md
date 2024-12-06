@@ -25,4 +25,33 @@ This project taught me many new concepts which I wasn't well-versed in before (T
 
 
 
-[back](./)
+<style>
+.back {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.back {
+  padding: 12px 100px;
+  background-color: #aa0405;
+} /* Red */
+
+.back {
+  background-color: white;
+  color: black;
+  border: 2px solid #aa0405;
+}
+
+.back:hover {
+  background-color: #aa0405;
+  color: white;
+}
+</style>
+
+<a href="./"> <button class="back">Back</button></a>
