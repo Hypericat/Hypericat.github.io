@@ -56,6 +56,7 @@ layout: default
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I71i-_ZlKeU?si=VGT3ofPCdxJL5M2i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <a href="https://github.com/Hypericat/HeadlessMC"> <button class="button button2">Visit Repository</button></a>
+
 <a href="./HeadlessMC.html"> <button class="button button1">Learn More!</button></a>
 	
 	
@@ -68,6 +69,7 @@ layout: default
 ### Searching GUI
 <img src="IPScanner.png" alt="IP Scanner">
 <a href="https://github.com/Hypericat/MinecraftIPScanner"> <button class="button button2">Visit Repository</button></a>
+
 <a href="./IPScanner.html"> <button class="button button1">Learn More!</button></a>
 
 
