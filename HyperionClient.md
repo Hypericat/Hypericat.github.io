@@ -17,6 +17,7 @@ This was actually my first Java project and what got me into Java in the fist pl
 * Jesus (Walk on water)
 * Horrible teleportation implementation (11 block range)
 * & many others
+
 After working on this for a while, I became better at Java, I realized that the project was based on fundamentaly horrendous and inefficent code. By far the most glaring issue was the lack of an events system, instead every method was called every tick and checked whether or not it should be active, this was inefficent and slow. Another glaring issue was that the GUI was burried within menus and wasn't much of a GUI; it had no options or configurations, and didn't save hack states (on or off).
 
 ## V2
@@ -24,6 +25,7 @@ Around 8 months later, I come back with much more Java experience. This version 
 * Added a good GUI
 * Much better performance
 * Added an events system (still minor flaws)
+
 However, eventually, I got somewhat bored, and stopped working on it. I didn't work on this for long, though I had setup a good GUI and events system, I had only added about 20 hacks compared to the ~50 on the original. This wasn't enough and it was still preferable to use the old bad hacks rather than this new system with less hacks. Additionally it had a few flaws:
 * Event system was based on runtime methods instead of compile time methods (this made it hard to debug).
 * Hack options were broken and didn't work correctly
@@ -40,7 +42,8 @@ About a year later I went back, this time I was determined to make a better clie
 * Updated to latest version and facilitated updating to future versions
 * Added teleport exploit to allow teleporting over 100 blocks
 * Criticals triggering automatically
-These were crucial to having a better client, I wanted to make sure that I didn't ever have to use that makeshift V1 client. This time, I had finally done it right, everything worked as expected. I am still happy with this version today, and wouldn`t change anything. This version isin`t finsihed yet, I still need to revisit it and add more hacks but I currently have enough concurrent projects. As it stands today it`s superior than the V1 and V2 in every way.
+
+These were crucial to having a better client, I wanted to make sure that I didn't ever have to use that makeshift V1 client. This time, I had finally done it right, everything worked as expected. I am still happy with this version today, and wouldn't change anything. This version isin't finsihed yet, I still need to revisit it and add more hacks but I currently have enough concurrent projects. As it stands today it's superior than the V1 and V2 in every way.
 
 
 ## Teleport Showcase
