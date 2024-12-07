@@ -68,7 +68,7 @@ layout: default
 
 ### Searching GUI
 <img src="IPScanner.png" alt="IP Scanner">
-<a target="_blank" href="https://github.com/Hypericat/MinecraftIPScanner"> <button class="button button2">Visit Repository</button></a>
+<a target="_blank" href="https://github.com/Hypericat/MinecraftServerScannerV2"> <button class="button button2">Visit Repository</button></a>
 
 <a href="./IPScanner.html"> <button class="button button1">Learn More!</button></a>
 
