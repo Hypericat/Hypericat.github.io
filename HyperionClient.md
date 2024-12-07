@@ -22,26 +22,26 @@ After working on this for a while, I became better at Java, I realized that the 
 
 ## V2
 Around 8 months later, I come back with much more Java experience. This version was fundamentaly way better than the previous version. Here is a list of improvements:
-* Added a good GUI
-* Much better performance
-* Added an events system (still minor flaws)
+* 	Added a good GUI
+* 	Much better performance
+* 	Added an events system (still minor flaws)
 
 However, eventually, I got somewhat bored, and stopped working on it. I didn't work on this for long, though I had setup a good GUI and events system, I had only added about 20 hacks compared to the ~50 on the original. This wasn't enough and it was still preferable to use the old bad hacks rather than this new system with less hacks. Additionally it had a few flaws:
-* Event system was based on runtime methods instead of compile time methods (this made it hard to debug).
-* Hack options were broken and didn't work correctly
-* Few hacks
-* My lack of understanding in matrices and rendering
+* 	Event system was based on runtime methods instead of compile time methods (this made it hard to debug).
+* 	Hack options were broken and didn't work correctly
+* 	Few hacks
+* 	My lack of understanding in matrices and rendering
 
 ## V3
 About a year later I went back, this time I was determined to make a better client; I was sick of using the old ad hoc V1 client. Here is a list of improvements:
-* Added all necessary hacks and more (~40 hacks)
-* Added a better GUI with a search a working options
-* Compile Time event system (Interfaces)
-* Object Oriented Structure
-* Added Rendering Hacks using matrices (ESP, HackList)
-* Updated to latest version and facilitated updating to future versions
-* Added teleport exploit to allow teleporting over 100 blocks
-* Criticals triggering automatically
+* 	Added all necessary hacks and more (~40 hacks)
+* 	Added a better GUI with a search a working options
+* 	Compile Time event system (Interfaces)
+* 	Object Oriented Structure
+* 	Added Rendering Hacks using matrices (ESP, HackList)
+* 	Updated to latest version and facilitated updating to future versions
+* 	Added teleport exploit to allow teleporting over 100 blocks
+* 	Criticals triggering automatically
 
 These were crucial to having a better client, I wanted to make sure that I didn't ever have to use that makeshift V1 client. This time, I had finally done it right, everything worked as expected. I am still happy with this version today, and wouldn't change anything. This version isin't finsihed yet, I still need to revisit it and add more hacks but I currently have enough concurrent projects. As it stands today it's superior than the V1 and V2 in every way.
 

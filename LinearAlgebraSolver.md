@@ -4,12 +4,10 @@ layout: default
 
 # Linear Algebra Equation Solver
 
-## Preface
+## Explanation
+This was a simple project that I worked on along with [Buhbah6](https://github.com/Buhbah6). It solves linear systems of equations as seen above using matrices in REF (Row Echelon Form) and RREF (Reveresed Row Echelon Form)
 
-
-## V1
-
-## V2
+## Code Example
 
 ## Example Output
 
