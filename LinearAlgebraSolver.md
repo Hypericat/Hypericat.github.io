@@ -103,6 +103,6 @@ Example of solving an equation.
 }
 </style>
 
-<a target="_blank" 	href="https://github.com/Hypericat/HyperionClientV3"> <button class="button repo">Visit Repository</button></a>
+<a target="_blank" 	href="https://github.com/Buhbah6/MATH204_LinearAdvancedCalculator"> <button class="button repo">Visit Repository</button></a>
 
 <a href="./"> <button class="button back">Back</button></a>
