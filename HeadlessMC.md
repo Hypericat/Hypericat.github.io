@@ -26,7 +26,7 @@ This project taught me many new concepts which I wasn't well-versed in before (T
 
 
 <style>
-.back {
+.button {
   border: none;
   color: white;
   text-align: center;
@@ -35,6 +35,23 @@ This project taught me many new concepts which I wasn't well-versed in before (T
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.repo {
+ padding: 8px 25px;
+ background-color: #008CBA;
+} /* Blue */
+
+
+.repo {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.repo:hover {
+  background-color: #008CBA;
+  color: white;
 }
 
 .back {
@@ -54,6 +71,6 @@ This project taught me many new concepts which I wasn't well-versed in before (T
 }
 </style>
 
-<a href="https://github.com/Hypericat/HeadlessMC"> <button class="button button2">Visit Repository</button></a>
+<a href="https://github.com/Hypericat/HeadlessMC"> <button class="button repo">Visit Repository</button></a>
 
-<a href="./"> <button class="back">Back</button></a>
+<a href="./"> <button class="button back">Back</button></a>

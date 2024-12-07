@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## Welcome to another page
+# SDL Renderer
 
-_yay_
+## Goal
+This project is still in early development, but I thought it was worth mentioning future projects.
 
-[back](./)

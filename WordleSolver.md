@@ -11,7 +11,7 @@ This project was very much a quick and dirty solver because I suck a Wordle. The
 The previous version worked, but it was slow and inefficient. The code was modified to have two modes. The first would attempt to narrow down the word list as much as possible, using the most letters who's state we do not know (We don't know whether they are used or not) until the list of possible words is below a small threshold. At this point we switch back to the orignal method and return the most likely result.
 
 <style>
-.back {
+.button {
   border: none;
   color: white;
   text-align: center;
@@ -20,6 +20,23 @@ The previous version worked, but it was slow and inefficient. The code was modif
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.repo {
+ padding: 8px 25px;
+ background-color: #008CBA;
+} /* Blue */
+
+
+.repo {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.repo:hover {
+  background-color: #008CBA;
+  color: white;
 }
 
 .back {
@@ -39,6 +56,6 @@ The previous version worked, but it was slow and inefficient. The code was modif
 }
 </style>
 
-<a href="https://github.com/Hypericat/Wordle-Solver"> <button class="button button2">Visit Repository</button></a>
+<a href="https://github.com/Hypericat/Wordle-Solver"> <button class="button repo">Visit Repository</button></a>
 
-<a href="./"> <button class="back">Back</button></a>
+<a href="./"> <button class="button back">Back</button></a>
