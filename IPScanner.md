@@ -72,6 +72,7 @@ After finishing the Headless Client, my itch for scanning servers reappeared. Th
 * Slow scanning (Took around 6 days in real life conditions)
 * Horrible Logging and Storage (In a directory, by far the worst issue)
 * Lack of real time tracking of players
+* My Internet went down often because I kept DOSing myself
 	
 To fix these issues, I decided to write the new scanner in C++. This would allow more control over networking and threads and generally be faster. This project is still in progress as of now, however the scanning capabilities are finished. The Headless Client could try logging in and see whether or not the server is has the whitelist toggled. This would avoid having to manually check each server to see whether I could even join it. The data will be parsed as it is received rather than parsing it from JSONs every time it needs to be used.
 	
