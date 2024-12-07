@@ -6,7 +6,7 @@ layout: default
 <img src="Linear.png" alt="Linear Systems of Equations">
 
 ## Explanation
-This was one of my first C++ projects and helped me get a grasp of it's special syntax. By this point I had a lot of Java experience and started branching out to C++. I worked on this this project along with [Buhbah6](https://github.com/Buhbah6). It solves linear systems of equations as seen above using Gauss Jordan Elimination in matrices with REF (Row Echelon Form) and RREF (Reduced Row Echelon Form). These equations can be solved by putting the coefficients into a Matrix. Our goal is to put the into REF, to do this we may use 3 operations:
+This was one of my first C++ projects and helped me get a grasp of its special syntax. By this point I had a lot of Java experience and started branching out to C++. I worked on this this project along with [Buhbah6](https://github.com/Buhbah6). It solves linear systems of equations as seen above using Gauss Jordan Elimination in matrices with REF (Row Echelon Form) and RREF (Reduced Row Echelon Form). These equations can be solved by putting the coefficients into a Matrix. Our goal is to put the into REF, to do this we may use 3 operations:
 
 ### Swapping Rows
 This is not used as it has no real use for computers, only for humans.
