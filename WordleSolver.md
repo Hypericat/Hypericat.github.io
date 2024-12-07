@@ -56,6 +56,27 @@ The previous version worked, but it was slow and inefficient. The code was modif
 }
 </style>
 
+## Code Example
+
+```java
+    public static void calculateNumberScores() {
+        scores.clear();
+        for (char cha : lower.toCharArray()) {
+            scores.add(new CharacterScore(cha));
+        }
+        for (String str : allUntouched) {
+            for (char cha : str.toCharArray()) {
+                getScoreByChar(cha).addScore();
+            }
+        }
+    }
+```
+This calculates the scores for all characters and adds them to a list.
+
+### Output example
+
+<img src="WordleOut.png" alt="Wordle">
+
 <a target="_blank" 	href="https://github.com/Hypericat/Wordle-Solver"> <button class="button repo">Visit Repository</button></a>
 
 <a href="./"> <button class="button back">Back</button></a>

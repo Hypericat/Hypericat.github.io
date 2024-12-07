@@ -20,6 +20,7 @@ After a few weeks, my original goals of being able to connect to a server where 
 The main aspect which I aspired to add was pathfinding. Pathfinding seemed like a great way to expand my knowledge, I had written previous implementations of pathfinding algorithms (Dijkstra's) however I knew that it was horribly ineficient. I ended up implementing A* which is similar to Dijkstra's but uses heuristics to improve the search a lot. The specifics can be seen in the repository's README. This implementation worked but A* really wasn't meant for heavy infinite games like Minecraft, more so for maps and such. This implementation was too slow for running many parallel bots. With some extra research I found [Baritone](https://github.com/cabaletta/baritone), an open source Minecraft mod implementing pathfinding. I adapted it's pathfinding calculations (A modified A* algorithm), to work within my Headless environment and immediately the execution times were much quicker. With this, the client can handle many instances all pathing at the same time, and they can all work on automated tasks such as mining specific blocks. 
 
 ## Pathfinder Executor Code Example
+
 ```java
     private void findNextPath() {
         for (int i = 0; i < MAX_RETRY; i++) {
@@ -46,10 +47,15 @@ The main aspect which I aspired to add was pathfinding. Pathfinding seemed like 
     }
 ```
 
+This is the code that searches through and executes new paths until we reach the position.
+
 ## Post Completion
 
 This project taught me many new concepts which I wasn't well-versed in before (TCP networking, pathfinding, encryption, compression, efficient communication over the internet), this was the goal of the project. If I were to redo this project once again, I would write it in C++, not only because of the better memory management (I am looking at you garbage collector), low level access and networking but mostly for the faster execution times. This would have been a much bigger endeavour but perhaps worth the performance benefit.
 
+
+## Headless Bots Example
+<img src="mcbots.png" alt="Bots">
 
 
 <style>
