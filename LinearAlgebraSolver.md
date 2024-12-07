@@ -10,7 +10,7 @@ This was one of my first C++ projects and helped me get a grasp of its special s
 
 ### Swapping Rows
 This is not used as it has no real use for computers, only for humans.
-```C++
+```cpp
 void Matrixd::swapRows(int row1, int row2) {
     std::vector<double> rowV1 = this->getRow(row1);
     std::vector<double> rowV2 = this->getRow(row2);
@@ -26,7 +26,7 @@ void Matrixd::swapRows(int row1, int row2) {
 
 ### Multiply
 Multiply a row by any coefficient
-```C++
+```cpp
 void Matrixd::mult(int row, double coef) {
     std::vector<double> rowV = this->getRow(row);
     for (int i = 0; i < rowV.size(); i++) {
@@ -37,7 +37,7 @@ void Matrixd::mult(int row, double coef) {
 
 ### Multiply Add
 This allows us to add a multiple of any row to a row.
-```C++
+```cpp
 void Matrixd::multAddRow(int rowToMultiply, int rowToAddTo, double coef) {
     std::vector<double> rowV1 = this->getRow(rowToMultiply);
     std::vector<double> rowV2 = this->getRow(rowToAddTo);
