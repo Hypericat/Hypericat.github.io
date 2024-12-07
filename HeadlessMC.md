@@ -19,6 +19,33 @@ After a few weeks, my original goals of being able to connect to a server where 
 
 The main aspect which I aspired to add was pathfinding. Pathfinding seemed like a great way to expand my knowledge, I had written previous implementations of pathfinding algorithms (Dijkstra's) however I knew that it was horribly ineficient. I ended up implementing A* which is similar to Dijkstra's but uses heuristics to improve the search a lot. The specifics can be seen in the repository's README. This implementation worked but A* really wasn't meant for heavy infinite games like Minecraft, more so for maps and such. This implementation was too slow for running many parallel bots. With some extra research I found [Baritone](https://github.com/cabaletta/baritone), an open source Minecraft mod implementing pathfinding. I adapted it's pathfinding calculations (A modified A* algorithm), to work within my Headless environment and immediately the execution times were much quicker. With this, the client can handle many instances all pathing at the same time, and they can all work on automated tasks such as mining specific blocks. 
 
+## Pathfinder Executor Code Example
+```java
+    private void findNextPath() {
+        for (int i = 0; i < MAX_RETRY; i++) {
+            instance.getLogger().logUser("Trying to find path!");
+            Pathfinder pathfinder = new Pathfinder(instance.getPlayer().getBlockPos(), goal, new CalculationContext(instance.getWorld(), new BlockBreakTickCache(instance.getPlayer().getInventory())));
+            currentPath = pathfinder.calculate();
+            if (currentPath != null) {
+                instance.getLogger().logUser("Next block at " + instance.getWorld().getBlock(currentPath.positions().getLast()));
+                instance.getLogger().logUser("Found path! Going to " + currentPath.positions().getLast() + " type : " + instance.getWorld().getBlock(currentPath.positions().getLast()));
+
+                break;
+            }
+            instance.getLogger().logUser("Failed to find path!");
+        }
+        //handle no path found
+        if (currentPath == null) {
+            isFinished = true;
+            return;
+        }
+        positions = currentPath.positions();
+        positionIndex = 0;
+        if (currentPath instanceof Path) isLast = goal.isInGoal(currentPath.getDest());
+        readyMove = true;
+    }
+```
+
 ## Post Completion
 
 This project taught me many new concepts which I wasn't well-versed in before (TCP networking, pathfinding, encryption, compression, efficient communication over the internet), this was the goal of the project. If I were to redo this project once again, I would write it in C++, not only because of the better memory management (I am looking at you garbage collector), low level access and networking but mostly for the faster execution times. This would have been a much bigger endeavour but perhaps worth the performance benefit.
@@ -71,6 +98,6 @@ This project taught me many new concepts which I wasn't well-versed in before (T
 }
 </style>
 
-<a href="https://github.com/Hypericat/HeadlessMC"> <button class="button repo">Visit Repository</button></a>
+<a target="_blank" href="https://github.com/Hypericat/HeadlessMC"> <button class="button repo">Visit Repository</button></a>
 
 <a href="./"> <button class="button back">Back</button></a>

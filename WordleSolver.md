@@ -56,6 +56,6 @@ The previous version worked, but it was slow and inefficient. The code was modif
 }
 </style>
 
-<a href="https://github.com/Hypericat/Wordle-Solver"> <button class="button repo">Visit Repository</button></a>
+<a target="_blank" 	href="https://github.com/Hypericat/Wordle-Solver"> <button class="button repo">Visit Repository</button></a>
 
 <a href="./"> <button class="button back">Back</button></a>
