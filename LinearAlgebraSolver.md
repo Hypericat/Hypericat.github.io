@@ -54,6 +54,7 @@ Once we have row reduced the matrix by using a combination of these operations, 
 
 ## Example Output
 <img src="LinearOut.png" alt="Linear Systems of Equations OUT">
+
 Example of solving an equation.
 
 
