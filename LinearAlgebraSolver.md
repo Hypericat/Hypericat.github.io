@@ -53,7 +53,7 @@ void Matrixd::multAddRow(int rowToMultiply, int rowToAddTo, double coef) {
 Once we have row reduced the matrix by using a combination of these operations, the program uses the same operations to turn it into RREF. This means going back from bottom to top and zeroing out the unwanted values. After this our answer appears in the matrix for each coefficient.
 
 ## Example Output
-<img src="LinearOut.png" alt="Linear Systems of Equations OUT"
+<img src="LinearOut.png" alt="Linear Systems of Equations OUT">
 Example of solving an equation.
 
 
